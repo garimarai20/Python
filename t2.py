@@ -1,5 +1,5 @@
 from turtle import *
-#triangle
+#hexagon
 forward(150)
 left(60)
 forward(150)
