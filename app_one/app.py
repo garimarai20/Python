@@ -31,7 +31,7 @@ st.dataframe(df,use_container_width=True)
 st.bar_chart(df,x= "WAGE", y="EDUCATION", use_container_width=True)
 
 
-st.sidebar.header("Select Optio")
+st.sidebar.header("Select Option")
 if st.sidebar.checkbox("Show Pivot Table Summary"):
     st.subheader("Pivot Table Summary")
     c1, c2 = st.columns(2)
